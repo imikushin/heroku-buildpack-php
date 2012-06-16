@@ -21,7 +21,7 @@ http {
     listen            <%= ENV['PORT'] %>;
     server_name       localhost;
 
-    root              /app/;
+    root              /app/target/web;
     index             index.php;
 
     # Some basic cache-control for static files to be sent to the browser
