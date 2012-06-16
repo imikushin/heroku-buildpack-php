@@ -4,6 +4,7 @@
 cat <<EOF
 ---
 config_vars:
+  LANG: en_US.UTF-8
   PATH: /app/local/bin:/app/vendor/nginx/sbin:/app/vendor/php/bin:/app/vendor/php/sbin:/usr/local/bin:/usr/bin:/bin
 default_process_types:
   web: sh boot.sh
