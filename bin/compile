@@ -4,6 +4,8 @@
 set -e
 set -o pipefail
 
+export LANG=en_US.UTF-8
+
 # START CONFIG
 NGINX_VERSION=1.2.1
 LIBMCRYPT_VERSION=2.5.8
